@@ -8,7 +8,8 @@ public class PrintYourNameAndSurname {
         String name = scanner.nextLine();
         System.out.printf("%s, what's your last name?", name);
         String surname = scanner.nextLine();
-        System.out.println("Hi " + name + " " + surname + "!");
+        System.out.print(name + " ");
+        System.out.println(surname);
 
     }
 }
